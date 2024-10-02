@@ -1,0 +1,11 @@
+marks={
+    "ankit":90,"vivek":94,"aman":59
+}
+print(marks.items())
+print(marks.values())
+print(marks.keys())
+marks.update({"vivek":69})
+print(marks.items())
+marks.update({"vivek":69,"amit":99})
+print(marks.items())
+print(marks.get("aman"))
